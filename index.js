@@ -38,7 +38,7 @@ bot.hears('eve', (ctx) => ctx.reply(eveningSesh()))
 bot.launch()
 
 //functions
-var suggestions = ['fuck off to Huatulco.', 'fuck off at the putaria.'],
+var suggestions = ['go for a hike.', 'go drink some cervesas.'],
     slurs = ['jotitos', 'putitos', 'jotos', 'pinche putos', 'putos', 'chingones', 'mamones', 'pinche cabrones', 'cabrones', 'chupetes', 'pinche maricones', 'marica', 'maricones'];
 
 function chivo() {
