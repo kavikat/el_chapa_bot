@@ -1,27 +1,30 @@
 {
-  "name": "el_chapabot",
-  "version": "1.0.0",
-  "description": "CHAPA!CHAPA!",
-  "main": "el_chapabot.js",
-  "scripts": {
-    "test": "chapa"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/kavika/joppabot.git"
-  },
-  "keywords": [
-    "surf"
-  ],
-  "author": "Kavika Tavui",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/kavika/joppabot/issues"
-  },
-  "homepage": "https://gitlab.com/kavika/joppabot#readme",
-  "dependencies": {
-    "dotenv": "^8.0.0",
-    "msw-api": "^0.1.0",
-    "telegraf": "^3.29.0"
-  }
+    "name": "el_chapabot",
+    "version": "1.0.0",
+    "description": "CHAPA!CHAPA!",
+    "main": "el_chapabot.js",
+    "scripts": {
+        "test": "chapa"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/kavika/joppabot.git"
+    },
+    "keywords": [
+        "surf"
+    ],
+    "author": "Kavika Tavui",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/kavika/joppabot/issues"
+    },
+    "homepage": "https://gitlab.com/kavika/joppabot#readme",
+    "dependencies": {
+        "dotenv": "^8.0.0",
+        "node-schedule": "^1.3.2",
+        "request": "^2.88.0",
+        "telegraf": "^3.29.0",
+        "unirest": "^0.6.0",
+        "wtf-8": "^1.0.1"
+    }
 }
